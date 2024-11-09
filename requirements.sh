@@ -2,6 +2,8 @@
 
 # Update the package list
 sudo apt update
+sudo apt upgrade
+sudo apt install build-essential git curl
 
 # Install networking and enumeration tools
 sudo apt install -y nmap wireshark netcat-openbsd
